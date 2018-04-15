@@ -10,13 +10,7 @@
 
   export default {
 
-    created () {
-      // 异步获取address
-      this.$store.dispatch('getAddress')
-      // 异步获取登陆用户信息
-      this.$store.dispatch('getUserInfo')
-      this.$store.dispatch('getShopInfo')
-    },
+
 
     components: {
       FooterGuide

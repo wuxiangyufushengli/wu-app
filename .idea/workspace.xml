@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad81f4b5-3b6c-484e-9478-2c4319562c8b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop_pages/images/ef42dfb164982f302e78ca327b9d306c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop_pages/images/login_ico2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop_pages/images/login_ico4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop_pages/images/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/List/Brand.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/List/Items.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Clothingcity.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Dogfood.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Goout.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Health.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Homepage.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Snacks.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Toy.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop_pages/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gshop_pages/购物车.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/common/imgs/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/common/stylus/mixins.styl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/AlertTip/AlertTip.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/CartControl/CartControl.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Food/Food.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/HeaderTop/HeaderTop.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/RatingSelect/RatingSelect.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopCart/ShopCart.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/ShopHeader.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/brand@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/brand@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/bulletin@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/bulletin@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/decrease_1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/decrease_1@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/decrease_2@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/decrease_2@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/discount_1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/discount_1@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/discount_2@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/discount_2@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/guarantee_1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/guarantee_1@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/guarantee_2@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/guarantee_2@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/invoice_1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/invoice_1@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/invoice_2@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/invoice_2@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/special_1@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/special_1@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/special_2@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/special_2@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopHeader/tiang.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopList/ShopList.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/ShopList/images/shop_back.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Split/Split.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/Star.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star24_half@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star24_half@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star24_off@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star24_off@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star24_on@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star24_on@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star36_half@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star36_half@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star36_off@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star36_off@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star36_on@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star36_on@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star48_half@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star48_half@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star48_off@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star48_off@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star48_on@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/components/Star/images/star48_on@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Msite/images/msite_back.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Order/images/person.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/Shop.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/ShopGoods.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/decrease_3@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/decrease_3@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/discount_3@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/discount_3@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/guarantee_3@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/guarantee_3@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/invoice_3@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/invoice_3@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/special_3@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopGoods/special_3@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/ShopInfo.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/decrease_4@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/decrease_4@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/discount_4@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/discount_4@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/guarantee_4@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/guarantee_4@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/invoice_4@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/invoice_4@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/special_4@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopInfo/special_4@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/pages/Shop/ShopRatings/ShopRatings.vue" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/store/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/store/getters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/store/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/store/mutation-types.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/store/mutations.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/src/store/state.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/gshop/src/pages/Search/Search.vue" afterPath="$PROJECT_DIR$/gshop/src/pages/List/List.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/index.html" afterPath="$PROJECT_DIR$/gshop/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/App.vue" afterPath="$PROJECT_DIR$/gshop/src/App.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/components/FooterGuide/FooterGuide.vue" afterPath="$PROJECT_DIR$/gshop/src/components/FooterGuide/FooterGuide.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/main.js" afterPath="$PROJECT_DIR$/gshop/src/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/pages/Login/Login.vue" afterPath="$PROJECT_DIR$/gshop/src/pages/Login/Login.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/pages/Msite/Msite.vue" afterPath="$PROJECT_DIR$/gshop/src/pages/Msite/Msite.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/pages/Order/Order.vue" afterPath="$PROJECT_DIR$/gshop/src/pages/Order/Order.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/pages/Profile/Profile.vue" afterPath="$PROJECT_DIR$/gshop/src/pages/Profile/Profile.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop/src/router/index.js" afterPath="$PROJECT_DIR$/gshop/src/router/index.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.34667674">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gshop_pages/css/index.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="179">
+                  <caret line="708" column="18" lean-forward="true" selection-start-line="708" selection-start-column="18" selection-end-line="708" selection-end-column="18" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/gshop_pages/login.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#1;n#li#1;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#li#2;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.epet-search</find>
+      <find>find_nav</find>
+      <find>allmodule</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.html" />
+        <option value="$PROJECT_DIR$/gshop_pages/index.html" />
+        <option value="$PROJECT_DIR$/gshop_pages/购物车.html" />
+        <option value="$PROJECT_DIR$/gshop_pages/login.html" />
+        <option value="$PROJECT_DIR$/gshop_pages/css/index.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/gshop/node_modules" />
+    <handled-path value="$PROJECT_DIR$/gshop_server/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="44" />
+    <option name="y" value="60" />
+    <option name="width" value="1392" />
+    <option name="height" value="682" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="nodejs_interpreter_path" value="C:/soft/node/node" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\fu123\Desktop\wu-app\app\gshop\node_modules\eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fu123\Desktop\wu-app\app\gshop_pages\images" />
+      <recent name="C:\Users\fu123\Desktop\wu-app\app\gshop_pages" />
+      <recent name="C:\Users\fu123\Desktop\wu-app\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad81f4b5-3b6c-484e-9478-2c4319562c8b" name="Default" comment="" />
+      <created>1523755633766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523755633766</updated>
+      <workItem from="1523755635235" duration="29492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="29492000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22277936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.081190795" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_pages/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_pages/stylus/index.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="484" column="24" lean-forward="false" selection-start-line="484" selection-start-column="24" selection-end-line="484" selection-end-column="24" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#7;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#8;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#9;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#1;n#div#1;n#div#1;n#div#0;n#div#0;n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#14;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#14;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#14;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#20;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#20;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#20;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#20;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#22;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#22;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#22;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#22;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#25;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#26;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#29;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#31;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#31;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#31;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#31;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#32;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#32;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#32;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_pages/购物车.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="18" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2211#2217#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_pages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="73" column="17" lean-forward="false" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#1;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#2;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_pages/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="708" column="18" lean-forward="true" selection-start-line="708" selection-start-column="18" selection-end-line="708" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

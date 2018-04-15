@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <title>硅谷外卖</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_361424_xnmnd5xi5oob6gvi.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="Cartcontainer">
+<div id="app">
+
+    <div class="bg">
+        <header class="ftc head-top bgfff zcolor rela">
+            <div>
+                <a href="javascript:void(0)" class="aback page-top go-back iconfont icon-jiantou2 "></a>
+                <span class="ft18 topbar-title">购物车</span>
+                <span class="iconfont icon-tupianliebiao"></span>
+
+            </div>
+        </header>
+        <footer class="footer_guide border-1px">
+            <div class="guide_item" @click="goto('/msite')" :class="{on: isCurrent('/msite')}">
+      <span class="item_icon">
+        <i class="iconfont icon-iconsy1"></i>
+      </span>
+                <span>首页</span>
+            </div>
+            <div class="guide_item" @click="goto('/list')" :class="{on: isCurrent('/list')}">
+      <span class="item_icon">
+        <i class="iconfont icon-icon04"></i>
+      </span>
+                <span>分类</span>
+            </div>
+            <div class="guide_item" @click="goto('/order')" :class="{on: isCurrent('/order')}">
+      <span class="item_icon">
+        <i class="iconfont icon-gouwugouwuchedinggou"></i>
+      </span>
+                <span>购物车</span>
+            </div>
+            <div class="guide_item" @click="goto('/profile')" :class="{on: isCurrent('/profile')}">
+      <span class="item_icon">
+        <i class="iconfont icon-xiaolian-"></i>
+      </span>
+                <span>我的E宠</span>
+            </div>
+        </footer>
+        <div id="CartBox">
+            <div class="mycart" data-reactid=".0">
+                <div class="m-emptycoupon ftc bgfff" data-reactid=".0.0">
+                    <div data-reactid=".0.0.0"><span class="u-emtcoupon iconfont icon-gouwugouwuchedinggou" data-reactid=".0.0.0.0">&nbsp;</span></div>
+                    <div class="ftc emttip ft16" data-reactid=".0.0.1">购物车是空的</div>
+                    <div class="emt-a mt15" data-reactid=".0.0.2"><a href="http://wap.epet.com" class="c999 ft16 mr5"
+                                                                     data-reactid=".0.0.2.0">去逛逛</a><a
+                            href="/zt/knowledge/favorites.html" class="c999 ft16" data-reactid=".0.0.2.1">我的收藏</a></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+</body>
+<script type="text/javascript" src="js/swiper.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

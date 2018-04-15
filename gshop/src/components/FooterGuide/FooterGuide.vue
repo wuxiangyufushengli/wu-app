@@ -2,27 +2,27 @@
   <footer class="footer_guide border-1px">
     <div class="guide_item" @click="goto('/msite')" :class="{on: isCurrent('/msite')}">
       <span class="item_icon">
-        <i class="iconfont icon-waimai"></i>
+        <i class="iconfont icon-iconsy1"></i>
       </span>
       <span>首页</span>
     </div>
-    <div class="guide_item" @click="goto('/search')" :class="{on: isCurrent('/search')}">
+    <div class="guide_item" @click="goto('/list')" :class="{on: isCurrent('/list')}">
       <span class="item_icon">
-        <i class="iconfont icon-search"></i>
+        <i class="iconfont icon-icon04"></i>
       </span>
-      <span>搜索</span>
+      <span>分类</span>
     </div>
     <div class="guide_item" @click="goto('/order')" :class="{on: isCurrent('/order')}">
       <span class="item_icon">
-        <i class="iconfont icon-dingdan"></i>
+        <i class="iconfont icon-gouwugouwuchedinggou"></i>
       </span>
-      <span>订单</span>
+      <span>购物车</span>
     </div>
     <div class="guide_item" @click="goto('/profile')" :class="{on: isCurrent('/profile')}">
       <span class="item_icon">
-        <i class="iconfont icon-geren"></i>
+        <i class="iconfont icon-xiaolian-"></i>
       </span>
-      <span>我的</span>
+      <span>我的E宠</span>
     </div>
   </footer>
 </template>
@@ -34,7 +34,6 @@
         this.$router.replace(path)
       },
       isCurrent(path) {
-        // console.log(this.$route.path)
         return this.$route.path === path
       }
     }
@@ -42,7 +41,6 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import "../../common/stylus/mixins.styl"
   .footer_guide
     top-border-1px(#e4e4e4)
     position fixed
@@ -63,7 +61,7 @@
       margin 5px
       color #999999
       &.on
-        color #02a774
+        color #97C78F
       span
         font-size 12px
         margin-top 2px
