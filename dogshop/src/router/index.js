@@ -34,44 +34,7 @@ export default new VueRouter({
     {
       path: '/msite',
       component: Msite,
-      children: [
-        {
-          path: '/msite/homepage',
-          component: Homepage,
-          meta: {
-            showFooter: true
-          }
-        },
-        {
-          path: '/msite/dogfood',
-          component: Dogfood
-        },
-        {
-          path: '/msite/snacks',
-          component: Snacks
-        },
-        {
-          path: '/msite/health',
-          component: Health
-        },
-        {
-          path: '/msite/toy',
-          component: Toy
-        },
-        {
-          path: '/msite/goout',
-          component: Goout
-        },
-        {
-          path: '/msite/clothingcity',
-          component: Clothingcity
-        },
-        {
-          path: '',
-          redirect: '/msite/homepage'
-        }
 
-      ],
       meta: {
         showFooter: true
       }
@@ -122,6 +85,43 @@ export default new VueRouter({
       component: Login
     },
 
-  ]
+  {
+    path: '/msite',
+    component: Msite,
+    meta: {
+      showFooter: true
+    }
+  },
+  {
+    path: '/msite/dogfood',
+    component: Dogfood
+  },
+  {
+    path: '/msite/snacks',
+    component: Snacks
+  },
+  {
+    path: '/msite/health',
+    component: Health
+  },
+  {
+    path: '/msite/toy',
+    component: Toy
+  },
+  {
+    path: '/msite/goout',
+    component: Goout
+  },
+  {
+    path: '/msite/clothingcity',
+    component: Clothingcity
+  },
+  {
+    path: '',
+    redirect: '/msite/homepage'
+  }
+
+],
+
 })
 

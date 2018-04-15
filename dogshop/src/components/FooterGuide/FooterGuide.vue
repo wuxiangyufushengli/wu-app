@@ -6,7 +6,7 @@
       </span>
       <span>首页</span>
     </div>
-    <div class="guide_item" @click="goto('/list')" :class="{on: isCurrent('/list')}">
+    <div class="guide_item" @click="goto('/list')" :class="{on: isCurrent('/list/items')}">
       <span class="item_icon">
         <i class="iconfont icon-icon04"></i>
       </span>
@@ -40,32 +40,43 @@
   }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
-  .footer_guide
-    top-border-1px(#e4e4e4)
-    position fixed
-    z-index 100
-    left 0
-    right 0
-    bottom 0
-    background-color #fff
-    width 100%
-    height 50px
-    display flex
-    .guide_item
-      display flex
-      flex 1
-      text-align center
-      flex-direction column
-      align-items center
-      margin 5px
-      color #999999
-      &.on
-        color #97C78F
-      span
-        font-size 12px
-        margin-top 2px
-        margin-bottom 2px
-        .iconfont
-          font-size 22px
+<style>
+  .footer_guide{
+    position:fixed;
+    z-index:100;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    width:100%;
+    height:50px;
+    display:flex;
+  }
+  .guide_item{
+    display:flex;
+    flex:1;
+    text-align:center;
+    flex-direction:column;
+    align-items:center;
+    margin:5px;
+    color:#999999
+  }
+  .footer_guide>.on{
+    color:#97C78F
+  }
+  .guide_item span{
+    font-size:12px;
+    margin-top:2px;
+    margin-bottom:2px
+  }
+  .item_icon .iconfont{
+    font-size:22px
+  }
+
+
+
+
+
+
+
 </style>
