@@ -1,9 +1,23 @@
 <template>
-    <div>Brand</div>
+  <div id="tab2" class="bandsbox">
+    <div class="brand-list">
+      <BrandList></BrandList>
+    </div>
+  </div>
 </template>
 <script>
-    export default {}
+    import BrandList from './BrandList.vue'
+    export default {
+      components:{
+        BrandList
+      }
+    }
 </script>
-<style lang="stylus" rel="stylesheet/stylus">
+<style>
+  .bandsbox {
+    display: block;
+  }
+
+
 
 </style>

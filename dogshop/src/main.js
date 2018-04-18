@@ -6,7 +6,8 @@ import App from './App.vue'
 import router from './router'
 
 import './filters'
-import './mock/mockServer'  // 加载这个模块即可
+import './mock/mockServer'
+import store from './store/index'
 
 
 if ('addEventListener' in document) {
@@ -21,5 +22,6 @@ new Vue({
   components: { App },
   template: '<App/>',
   router,
+  store
 
 })

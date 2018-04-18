@@ -6,7 +6,7 @@
       </span>
       <span>首页</span>
     </div>
-    <div class="guide_item" @click="goto('/list')" :class="{on: isCurrent('/list/items')}">
+    <div class="guide_item" @click="goto('/list')" :class="{on: isCurrent('/list/items')||isCurrent('/list/brand')}">
       <span class="item_icon">
         <i class="iconfont icon-icon04"></i>
       </span>
@@ -31,7 +31,7 @@
   export default {
     methods: {
       goto(path) {
-        this.$router.replace(path)
+        this.$router.push(path)
       },
       isCurrent(path) {
         return this.$route.path === path
@@ -42,6 +42,7 @@
 
 <style>
   .footer_guide{
+
     position:fixed;
     z-index:100;
     left:0;

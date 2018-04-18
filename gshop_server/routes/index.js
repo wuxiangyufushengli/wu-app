@@ -15,17 +15,14 @@ var svgCaptcha = require('svg-captcha');
 router.post('/login_pwd', function (req, res) {
   const name = req.body.name
   const pwd = md5(req.body.pwd)
-  const captcha = req.body.captcha.toLowerCase()
-  console.log('/login_pwd', name, pwd, captcha)
+  console.log('/login_pwd', name, pwd)
 
   // 可以对用户名/密码格式进行检查, 如果非法, 返回提示信息
-  if(captcha!==req.session.captcha) {
-    return res.send({code: 1, msg: '验证码不正确'})
-  }
-  // 删除保存的验证码
-  delete req.session.captcha
 
-  UserModel.findOne({name}, _filter, function (err, user) {
+  // 删除保存的验证码
+
+
+  UserModel.findOne({name}, function (err, user) {
     if (user) {
       if (user.pwd !== pwd) {
         res.send({code: 1, msg: '用户名或密码不正确!'})
@@ -171,6 +168,43 @@ router.get('/shops', function (req, res) {
     const data = require('../data/shops.json')
     res.send({code: 0, data})
   }, 300)
+})
+
+
+
+//自己的验证码登录
+router.post('/login_sms', function (req, res, next) {
+    const  phone= req.body.phone;
+    const code = req.body.code;
+    const captcha = req.body.captcha.toLowerCase()
+
+    if (users[phone] != code) {
+        res.send({code: 1, msg: '手机号或验证码不正确'});
+        return;
+    };
+    // 可以对用户名/密码格式进行检查, 如果非法, 返回提示信息
+    if(captcha!==req.session.captcha) {
+        return res.send({code: 1, msg: '验证码不正确'})
+    }
+    // 删除保存的验证码
+    delete req.session.captcha
+    // 删除保存的验证码
+    delete req.session.captcha;
+    delete users[phone];
+
+    UserModel.findOne({phone}, function (err, user) {
+        if (user) {
+            req.session.userid = user._id
+            res.send({code: 0, data: user})
+        } else {
+            //存储数据
+            const userModel = new UserModel({phone})
+            userModel.save(function (err, user) {
+                req.session.userid = user._id
+                res.send({code: 0, data: user})
+            })
+        }
+    })
 })
 
 module.exports = router;

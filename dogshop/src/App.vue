@@ -18,9 +18,11 @@
   }
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
-  #app
-    width 100%
-    height 100%
-    position relative
+<style>
+  #app{
+    width:100%;
+    height:100%;
+    position:relative;
+  }
+
 </style>
