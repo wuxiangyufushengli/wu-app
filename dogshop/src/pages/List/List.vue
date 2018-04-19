@@ -12,10 +12,6 @@
 
       </div>
     </div>
-    <div class="loading" v-if="loading">
-      <img src="../Msite/images/loading.gif">
-      <div>数据加载中</div>
-    </div>
     <router-view></router-view>
 
   </div>
@@ -34,11 +30,7 @@
     computed:{
       ...mapState(['categorys'])
     },
-    watch:{
-      categorys(value){
-        this.loading=false
-      }
-    },
+
     components: {
       Items,
       Brand

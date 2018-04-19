@@ -2,7 +2,7 @@
     <div class="bW">
       <div>
         <header class="headerTop1">
-          <a href="javascript:;" class="iconfont icon-jiantou2" @click="$router.go(-1)"></a>
+          <a href="javascript:;" class="iconfont icon-jiantou2" @click="$router.back()"></a>
           <span class="all">全部品牌</span>
           <span class="iconfont icon-tupianliebiao" id="icon"></span>
         </header>
@@ -31,6 +31,10 @@
         <span @click='changeMu(index)' class="#item0" :class="{letterActive:index===LeftCindex}" v-for="(brands,index) in allbrands.brand"
               :key="index">{{brands.order}}</span>
       </div>
+      <div class="loading" v-if="loading">
+        <img src="../Msite/images/loading.gif">
+        <div>数据加载中</div>
+      </div>
     </div>
 </template>
 <script>
@@ -41,7 +45,8 @@
         return{
           currentIndex:0,
           tops:[],//所有品牌的top
-          scrollY:0//当前Y轴滚动的坐标
+          scrollY:0,//当前Y轴滚动的坐标
+          loading:true
         }
       },
      computed:{
@@ -54,10 +59,14 @@
          })
        },
 
-
-
      },
-     mounted(){
+      watch:{
+        allbrands(value){
+          this.loading=false
+        }
+      },
+
+      mounted(){
        this.$store.dispatch('GetbrandAll',()=>{
          this.$nextTick(()=>{
            this._initTops()
@@ -65,13 +74,14 @@
        });
        this.Scroll=new BScroll('.bW',{
          scrollY: true,
-         click:true
+         click:true,
+         probeType: 3,
        });
        this.Scroll.on('scroll', (pos) => {
-         this.scrollY = Math.abs(pos.y)//实时监控手指滑动距离，就为scrollY的值
+         this.scrollY = Math.abs(pos.y)+200//实时监控手指滑动距离，就为scrollY的值
        });
        this.Scroll.on('scrollEnd', (pos) => {
-         this.scrollY = Math.abs(pos.y)
+         this.scrollY = Math.abs(pos.y)+200
        })
 
      },
@@ -95,8 +105,6 @@
             tops.push(top)
           });
           this.tops=tops;
-          console.log(tops)
-
         }
       }
 
@@ -183,6 +191,32 @@
       .letterActive
         color: #fe3e3e;
         font-weight: 700;
+
+
+
+    .loading
+       border-radius: 10px;
+       background-color:#555555;
+       width: 100px;
+       height:100px;
+       position: absolute;
+       top:50%;
+       left:50%;
+       margin-left: -40px;
+       margin-top:-40px ;
+       text-align: center;
+       z-index: 100;
+       img
+          position: relative;
+          top:25px;
+          width: 40px
+          height:40px;
+       div
+          position: relative;
+          top:30px;
+          color:white;
+
+
 
 
 
