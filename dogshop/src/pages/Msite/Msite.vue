@@ -67,7 +67,7 @@
             <ul class="clearfix hottype pt10 pb10" v-if="homepage.datas">
               <li class="fl" style="width: 20%; height: 90px;" v-for="(nav,index) in homepage.datas[1].menus" :key="index">
                 <a href="https://wap.epet.com/group/v226/main.html?pet_type=dog&amp;fw=0">
-                  <img :src="nav.image"></a></li>
+                  <img v-lazy="nav.image"></a></li>
             </ul>
           </div>
         </div>
@@ -106,7 +106,7 @@
             <div class="surprise-pro pl5 mb10">
               <div class="imageWraper" v-if="activity.data">
                 <div class="imageList" v-for="(good,index) in activity.data['3'].goods" :key="index">
-                  <img class="image" :src="good.image.image" lazy="loaded">
+                  <img class="image" v-lazy="good.image.image" lazy="loaded">
                   <div class="cred ftc mt5">
                     <span class="ft12">¥</span>
                     <span class="ft17">{{good.sale_price}}</span>
@@ -196,7 +196,7 @@
                   <div class="divimg" style="width: 100%;">
                     <a href="http://sale.epet.com/m/mould/activity/ztMzQ4MA%3D%3D.html?tid=3480&amp;fw=0"
                     class="default_bg">
-                      <img name="750x320" :src="Bimg.menu_src" lazy="loaded" style="height: 160px;"></a></div>
+                      <img name="750x320" v-lazy="Bimg.menu_src" lazy="loaded" style="height: 160px;"></a></div>
                 </div>
               </div>
             </div>
@@ -245,6 +245,10 @@
     </div>
     <!--右边小狗-->
     <div class="go-dog pointer dog"></div>
+    <div class="loading" v-if="loading">
+      <img src="./images/loading.gif">
+      <div>数据加载中</div>
+    </div>
 
   </div>
 
@@ -267,11 +271,17 @@
     data() {
       return {
         currentIndex: 0,
-        isShow:true
+        isShow:true,
+        loading:true,
       }
     },
     computed: {
-      ...mapState(['homepage', 'activity'])
+      ...mapState(['homepage', 'activity']),
+    },
+    watch:{
+      homepage(value){
+        this.loading=false
+      }
     },
     methods: {
       ClickLi(index) {
@@ -283,7 +293,6 @@
         CD.style.paddingTop=89+'px'
       }
     },
-
     mounted() {
       //导航滑动
       this.$nextTick(() => {
@@ -293,6 +302,7 @@
       });
 
       this.$store.dispatch('getHomepage');
+
       this.$store.dispatch('GetActivity',()=>{
         //轮播
         this.$nextTick(() => {
@@ -814,6 +824,32 @@
     50%{
       background-position:-41px 0
     }
+  }
+  /*loading*/
+  .loading{
+    border-radius: 10px;
+    background-color:#555555;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+    text-align: center;
+    z-index: 100;
+
+  }
+  .loading img{
+    position: relative;
+    top:25px;
+    width: 40px;
+    height:40px;
+  }
+  .loading div{
+    position: relative;
+    top:30px;
+    color:white;
   }
 
 </style>

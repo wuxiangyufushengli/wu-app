@@ -5,11 +5,16 @@
         <ul>
           <li class="bgfff" :class="{on:index===currentIndex}"
               @click='handleClick(index)' v-for="(category,index) in categorys"
-              :key="index">{{category.name}}</li>
+              :key="index">{{category.name}}
+          </li>
         </ul>
       </div>
     </div>
     <ItemList :index="index"></ItemList>
+    <div class="loading" v-if="loading">
+      <img src="../Msite/images/loading.gif">
+      <div>数据加载中</div>
+    </div>
   </div>
 </template>
 <script>
@@ -20,7 +25,8 @@
       data(){
         return{
           currentIndex:0,
-          index:0
+          index:0,
+          loading:true
         }
       },
       components:{
@@ -29,6 +35,11 @@
       computed:{
         ...mapState(['categorys'])
 
+      },
+      watch:{
+        categorys(value){
+          this.loading=false
+        }
       },
       mounted(){
         this.$store.dispatch('GetCategorys',()=>{
@@ -44,7 +55,12 @@
       methods:{
         handleClick(index){
           this.currentIndex=index;
-          this.index=index
+          this.index=index;
+          this.loading=true;
+          setTimeout(()=>{
+            this.loading=false;
+          },200)
+
         }
       },
 
@@ -94,6 +110,33 @@
     background: #f3f4f5;
     color: #ed4044
   }
+  /*loading*/
+  .loading{
+    border-radius: 10px;
+    background-color:#555555;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+    text-align: center;
+    z-index: 100;
+
+  }
+  .loading img{
+    position: relative;
+    top:25px;
+    width: 40px;
+    height:40px;
+  }
+  .loading div{
+    position: relative;
+    top:30px;
+    color:white;
+  }
+
 
 
 </style>

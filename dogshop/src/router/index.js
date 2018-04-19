@@ -20,6 +20,7 @@ import Clothingcity from '../pages/Msite/Clothingcity.vue';
 
 import Items from '../pages/List/Items.vue';
 import Brand from '../pages/List/Brand.vue';
+import Brands from '../pages/List/Brands.vue'
 
 
 
@@ -55,7 +56,7 @@ export default new VueRouter({
           component: Brand,
           meta: {
             showFooter: true
-          }
+          },
         },
         {
           path: '',
@@ -90,6 +91,10 @@ export default new VueRouter({
       }
     },
     {
+      path:'/brands',
+      component:Brands
+    }
+    /*{
       path: '/msite/dogfood',
       component: Dogfood
     },
@@ -112,7 +117,7 @@ export default new VueRouter({
     {
       path: '/msite/clothingcity',
       component: Clothingcity
-    },
+    },*/
 
 
 ],

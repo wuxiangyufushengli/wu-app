@@ -3,13 +3,13 @@
     <div class="hot-recom bbtf3">
       <a href="javascript:;" class="db ft12">
           {{category.title}}
-        <img  :src="category.rigth_img.image?category.rigth_img.image:'' " class="fr arrowL mr5">
+        <img  v-lazy="category.rigth_img.image?category.rigth_img.image:'' " class="fr arrowL mr5">
       </a>
       <ul class="clearfix">
         <li class="fl" v-for="(list,index) in category.list" :key="index">
           <a href="javasrcipt:;" class="db">
             <div class="loadimg-nofixed">
-              <img class="image" :src="list.photo" alt="">
+              <img class="image" v-lazy="list.photo" alt="">
             </div>
             <p>{{list.name}}</p>
           </a>

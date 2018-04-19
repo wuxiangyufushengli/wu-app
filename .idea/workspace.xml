@@ -2,47 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad81f4b5-3b6c-484e-9478-2c4319562c8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/pages/Msite/images/godog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/components/AlertTip/AlertTip.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/components/HotBrand/HotBrand.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/components/Split/Split.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/components/Swipers/Swiper.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/mock/MockServer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/mock1/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/store/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/store/getters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/store/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/store/mutation-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/store/mutations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/store/state.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/.eslintignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/.postcssrc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gshop_server/API.md" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dogshop/src/mock/mockServer.js" afterPath="$PROJECT_DIR$/dogshop/src/mock1/mockServer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/common/imgs/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/pages/Msite/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/Brands.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/index.html" afterPath="$PROJECT_DIR$/dogshop/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/App.vue" afterPath="$PROJECT_DIR$/dogshop/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/api/index.js" afterPath="$PROJECT_DIR$/dogshop/src/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/components/FooterGuide/FooterGuide.vue" afterPath="$PROJECT_DIR$/dogshop/src/components/FooterGuide/FooterGuide.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/package.json" afterPath="$PROJECT_DIR$/dogshop/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue" afterPath="$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/components/HotBrand/HotBrand.vue" afterPath="$PROJECT_DIR$/dogshop/src/components/HotBrand/HotBrand.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue" afterPath="$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/main.js" afterPath="$PROJECT_DIR$/dogshop/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/mock/data.json" afterPath="$PROJECT_DIR$/dogshop/src/mock/data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/List/Brand.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/Brand.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/List/Items.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/Items.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/List/List.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/List/List.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/Msite/Msite.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/Msite/Msite.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/Order/Order.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/Order/Order.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/pages/Profile/Profile.vue" afterPath="$PROJECT_DIR$/dogshop/src/pages/Profile/Profile.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/router/index.js" afterPath="$PROJECT_DIR$/dogshop/src/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop_pages/index.html" afterPath="$PROJECT_DIR$/gshop_pages/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop_pages/购物车.html" afterPath="$PROJECT_DIR$/gshop_pages/购物车.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop_server/routes/index.js" afterPath="$PROJECT_DIR$/gshop_server/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gshop_server/util/sms_util.js" afterPath="$PROJECT_DIR$/gshop_server/util/sms_util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/store/actions.js" afterPath="$PROJECT_DIR$/dogshop/src/store/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dogshop/src/store/mutations.js" afterPath="$PROJECT_DIR$/dogshop/src/store/mutations.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,48 +35,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Profile.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Profile/Profile.vue">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dogshop/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2875">
-              <caret line="208" column="36" lean-forward="true" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+            <state relative-caret-position="1086">
+              <caret line="93" column="19" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="19" />
               <folding>
-                <element signature="n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#span#1;n#li#1;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#4387#4448#0" expanded="true" />
-                <element signature="e#5529#5612#0" expanded="false" />
+                <element signature="e#13#34#0" expanded="true" />
+                <element signature="e#1846#2247#0" expanded="false" />
+                <marker date="1524059736033" expanded="false" signature="2048:2102" ph="{&quot;path&quot;: '/msite/toy'...}" />
+                <marker date="1524059736033" expanded="false" signature="2108:2166" ph="{&quot;path&quot;: '/msite/goout'...}" />
+                <marker date="1524059736033" expanded="false" signature="2172:2244" ph="{&quot;path&quot;: '/msite/clothingcity'...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Msite.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Brands.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/Brands.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1311">
+              <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#1371#1407#0" expanded="true" />
+                <marker date="1524111463169" expanded="true" signature="3522:4433" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Msite.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Msite/Msite.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="808" column="15" lean-forward="true" selection-start-line="808" selection-start-column="15" selection-end-line="808" selection-end-column="15" />
+            <state relative-caret-position="242">
+              <caret line="320" column="25" lean-forward="true" selection-start-line="320" selection-start-column="12" selection-end-line="320" selection-end-column="25" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#8;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#11;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+                <element signature="e#11244#11272#0" expanded="true" />
+                <element signature="e#11887#12085#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -107,16 +84,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="vue" />
         <option value="HTML File" />
+        <option value="vue" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>allmodule</find>
-      <find>overflow</find>
-      <find>https://img2.epetbar.com/nowater/2018-04/16/10/57af2370b7e9f5167fa1373fa665d4c6.jpg@!water</find>
       <find>https://img2.epetbar.com/nowater/2018-04/13/10/4f2787312a3d212bc65c062627eaa429.jpg@!water</find>
       <find>https://img2.epetbar.com/nowater/2018-04/16/13/b3a4a0c7a728aa7ef7537388abd6b4fb.jpg@!water</find>
       <find>xiazaiApp</find>
@@ -144,7 +118,14 @@
       <find>忘记</find>
       <find>code</find>
       <find>go-dog</find>
+      <find>:src=</find>
+      <find>active</find>
+      <find>icon-tupianliebiao</find>
     </findStrings>
+    <replaceStrings>
+      <replace>v-lazy=</replace>
+      <replace>div class</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,35 +146,39 @@
         <option value="$PROJECT_DIR$/gshop_pages/购物车.html" />
         <option value="$PROJECT_DIR$/dogshop/src/components/Swipers/swiper.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/components/Split/Split.vue" />
-        <option value="$PROJECT_DIR$/dogshop/src/pages/List/Brand.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/App.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/store/index.js" />
-        <option value="$PROJECT_DIR$/dogshop/src/main.js" />
         <option value="$PROJECT_DIR$/dogshop/src/components/FooterGuide/FooterGuide.vue" />
-        <option value="$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue" />
-        <option value="$PROJECT_DIR$/dogshop/src/components/Swipers/Swiper.vue" />
-        <option value="$PROJECT_DIR$/dogshop/src/pages/List/List.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/mock/MockServer.js" />
         <option value="$PROJECT_DIR$/dogshop/src/store/state.js" />
         <option value="$PROJECT_DIR$/dogshop/src/store/mutation-types.js" />
-        <option value="$PROJECT_DIR$/dogshop/src/pages/List/Items.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/mock/data.json" />
-        <option value="$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/components/BrandList/BrandList.vue" />
-        <option value="$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue" />
-        <option value="$PROJECT_DIR$/dogshop/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/dogshop/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue" />
-        <option value="$PROJECT_DIR$/dogshop/index.html" />
         <option value="$PROJECT_DIR$/1.html" />
-        <option value="$PROJECT_DIR$/dogshop/src/router/index.js" />
-        <option value="$PROJECT_DIR$/dogshop/src/pages/Order/Order.vue" />
         <option value="$PROJECT_DIR$/dogshop/src/components/AlertTip/AlertTip.vue" />
         <option value="$PROJECT_DIR$/gshop_server/routes/index.js" />
         <option value="$PROJECT_DIR$/gshop_server/util/sms_util.js" />
         <option value="$PROJECT_DIR$/dogshop/src/api/index.js" />
+        <option value="$PROJECT_DIR$/dogshop/index.html" />
         <option value="$PROJECT_DIR$/dogshop/src/pages/Profile/Profile.vue" />
+        <option value="$PROJECT_DIR$/dogshop/package.json" />
+        <option value="$PROJECT_DIR$/dogshop/src/main.js" />
         <option value="$PROJECT_DIR$/dogshop/src/pages/Msite/Msite.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/components/HotBrand/HotBrand.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/components/Swipers/Swiper.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/List.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/Items.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/BrandItem.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/router/index.js" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/Brand.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/Order/Order.vue" />
+        <option value="$PROJECT_DIR$/dogshop/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/dogshop/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/dogshop/src/pages/List/Brands.vue" />
       </list>
     </option>
   </component>
@@ -214,9 +199,9 @@
     <handled-path value="$PROJECT_DIR$/dogshop/node_modules" />
     <handled-path value="$PROJECT_DIR$/gshop_server/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="238" />
-    <option name="y" value="-13" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-16" />
+    <option name="y" value="4" />
     <option name="width" value="1392" />
     <option name="height" value="840" />
   </component>
@@ -238,14 +223,39 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="app" type="b2602c69:ProjectViewProjectNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dogshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dogshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dogshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="dogshop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -274,11 +284,11 @@
       <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\pages\List" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\common\imgs" />
+      <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\pages\Msite\images" />
       <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\components" />
       <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\api" />
       <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src" />
-      <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\store" />
-      <recent name="C:\Users\fu123\Desktop\wu-app\app\dogshop\src\pages\Msite\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,6 +306,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ad81f4b5-3b6c-484e-9478-2c4319562c8b" name="Default" comment="" />
@@ -309,26 +322,28 @@
       <workItem from="1523852669245" duration="34640000" />
       <workItem from="1523925073735" duration="8074000" />
       <workItem from="1523935055802" duration="35405000" />
-      <workItem from="1524011070669" duration="25553000" />
+      <workItem from="1524011070669" duration="44296000" />
+      <workItem from="1524097660749" duration="12385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157263000" />
+    <option name="totallyTimeSpent" value="188391000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-16" y="4" width="1392" height="840" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1747851" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10885886" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.473613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07254623" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -365,41 +380,22 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/dogshop/src/pages/List/Brand.vue</url>
+          <line>2</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/gshop_pages/images/login_ico2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/GgApp/GgApp.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop_pages/购物车.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="62" column="10" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="62" selection-end-column="10" />
-          <folding>
-            <element signature="e#2210#2216#1" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gshop_pages/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="86" column="26" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="86" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -446,6 +442,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#9;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#10;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#11;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#13;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#14;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#16;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#18;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#20;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#22;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#25;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#26;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#27;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#29;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#30;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#31;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -495,32 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/FooterGuide/FooterGuide.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-690">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dogshop/src/mock/MockServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -535,121 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/Swipers/Swiper.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#832#915#0" expanded="false" />
-            <element signature="e#945#971#0" expanded="false" />
-            <element signature="e#998#1023#0" expanded="false" />
-            <element signature="e#1057#1104#0" expanded="false" />
-            <element signature="e#1149#1201#0" expanded="false" />
-            <element signature="e#1404#1444#0" expanded="false" />
-            <element signature="e#1497#1580#0" expanded="false" />
-            <element signature="e#1638#1725#0" expanded="false" />
-            <element signature="e#1781#1805#0" expanded="false" />
-            <element signature="e#1866#1915#0" expanded="false" />
-            <element signature="e#1980#2085#0" expanded="false" />
-            <element signature="e#2154#2275#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/HotBrand/HotBrand.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="e#709#792#0" expanded="false" />
-            <element signature="e#822#848#0" expanded="false" />
-            <element signature="e#875#900#0" expanded="false" />
-            <element signature="e#934#981#0" expanded="false" />
-            <element signature="e#1026#1078#0" expanded="false" />
-            <element signature="e#1281#1321#0" expanded="false" />
-            <element signature="e#1374#1457#0" expanded="false" />
-            <element signature="e#1515#1602#0" expanded="false" />
-            <element signature="e#1658#1682#0" expanded="false" />
-            <element signature="e#1743#1792#0" expanded="false" />
-            <element signature="e#1857#1962#0" expanded="false" />
-            <element signature="e#2031#2152#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#355#417#0" expanded="true" />
-            <element signature="e#774#857#0" expanded="false" />
-            <element signature="e#887#913#0" expanded="false" />
-            <element signature="e#940#965#0" expanded="false" />
-            <element signature="e#999#1046#0" expanded="false" />
-            <element signature="e#1091#1143#0" expanded="false" />
-            <element signature="e#1346#1386#0" expanded="false" />
-            <element signature="e#1439#1522#0" expanded="false" />
-            <element signature="e#1580#1667#0" expanded="false" />
-            <element signature="e#1723#1747#0" expanded="false" />
-            <element signature="e#1808#1857#0" expanded="false" />
-            <element signature="e#1922#2027#0" expanded="false" />
-            <element signature="e#2096#2217#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/store/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#928#1001#0" expanded="false" />
-            <element signature="e#1036#1114#0" expanded="false" />
-            <element signature="e#1156#1246#0" expanded="false" />
-            <element signature="e#1294#1315#0" expanded="false" />
-            <element signature="e#1356#1381#0" expanded="false" />
-            <element signature="e#1432#1481#0" expanded="false" />
-            <element signature="e#1535#1623#0" expanded="false" />
-            <element signature="e#1680#1726#0" expanded="false" />
-            <element signature="e#1790#1910#0" expanded="false" />
-            <element signature="e#2296#2489#0" expanded="false" />
-            <element signature="e#2552#2736#0" expanded="false" />
-            <element signature="e#2802#2982#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="74" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dogshop/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
@@ -657,19 +547,238 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.html" />
+    <entry file="file://$PROJECT_DIR$/gshop_server/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_server/API.md" />
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/AlertTip/AlertTip.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/api/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_server/db/models.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_server/util/sms_util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-828">
+          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gshop_server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="198" column="16" lean-forward="true" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/api/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="e#1#22#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Profile/Profile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9131">
+          <caret line="447" column="13" lean-forward="true" selection-start-line="447" selection-start-column="13" selection-end-line="447" selection-end-column="13" />
+          <folding>
+            <element signature="n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#1;n#li#1;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#4387#4448#0" expanded="false" />
+            <element signature="e#5529#5612#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/MAudio/MAudio.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/HotBrand/HotBrand.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/GgApp/GgApp.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/CategoryList/CategoryList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/Swipers/Swiper.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/components/FooterGuide/FooterGuide.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/Items.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="64" column="8" lean-forward="true" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
+          <folding>
+            <element signature="e#555#591#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/ItemList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="189" column="0" lean-forward="true" selection-start-line="162" selection-start-column="2" selection-end-line="189" selection-end-column="0" />
+          <folding>
+            <element signature="e#356#418#0" expanded="false" />
+            <element signature="e#846#929#0" expanded="false" />
+            <element signature="e#959#985#0" expanded="false" />
+            <element signature="e#1012#1037#0" expanded="false" />
+            <element signature="e#1071#1118#0" expanded="false" />
+            <element signature="e#1163#1215#0" expanded="false" />
+            <element signature="e#1418#1458#0" expanded="false" />
+            <element signature="e#1511#1594#0" expanded="false" />
+            <element signature="e#1652#1739#0" expanded="false" />
+            <element signature="e#1795#1819#0" expanded="false" />
+            <element signature="e#1880#1929#0" expanded="false" />
+            <element signature="e#1994#2099#0" expanded="false" />
+            <element signature="e#2168#2289#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/Brand.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="e#219#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/BrandList.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="38" column="8" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="38" selection-end-column="8" />
+          <folding>
+            <element signature="e#1211#1284#0" expanded="false" />
+            <element signature="e#1319#1397#0" expanded="false" />
+            <element signature="e#1439#1529#0" expanded="false" />
+            <element signature="e#1577#1598#0" expanded="false" />
+            <element signature="e#1639#1664#0" expanded="false" />
+            <element signature="e#1715#1764#0" expanded="false" />
+            <element signature="e#1818#1906#0" expanded="false" />
+            <element signature="e#1963#2009#0" expanded="false" />
+            <element signature="e#2073#2193#0" expanded="false" />
+            <element signature="e#2579#2772#0" expanded="false" />
+            <element signature="e#2835#3019#0" expanded="false" />
+            <element signature="e#3085#3265#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Order/Order.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="134" column="0" lean-forward="true" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding>
+            <element signature="n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dogshop/src/mock/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15821">
-          <caret line="1445" column="4" lean-forward="false" selection-start-line="1445" selection-start-column="4" selection-end-line="1445" selection-end-column="4" />
+        <state relative-caret-position="-2577">
+          <caret line="1444" column="11" lean-forward="false" selection-start-line="1444" selection-start-column="11" selection-end-line="1444" selection-end-column="11" />
           <folding>
+            <element signature="e#17#47946#0" expanded="false" />
             <element signature="e#23#1595#0" expanded="false" />
             <element signature="e#89#1589#0" expanded="false" />
             <element signature="e#6002#10838#0" expanded="false" />
@@ -682,6 +791,7 @@
             <element signature="e#17686#20744#0" expanded="false" />
             <element signature="e#20764#25550#0" expanded="false" />
             <element signature="e#25556#30329#0" expanded="false" />
+            <element signature="e#47959#80161#0" expanded="false" />
             <element signature="e#47965#52845#0" expanded="false" />
             <element signature="e#48004#52839#0" expanded="false" />
             <element signature="e#48014#48368#0" expanded="false" />
@@ -698,7 +808,6 @@
             <element signature="e#69316#73781#0" expanded="false" />
             <element signature="e#73793#78317#0" expanded="false" />
             <element signature="e#78323#80157#0" expanded="false" />
-            <element signature="n#!!block;n#allbrands#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#homepages#0;n#!!top" expanded="false" />
             <element signature="e#234907#239126#0" expanded="false" />
             <element signature="e#239165#244301#0" expanded="false" />
@@ -777,188 +886,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/Items.vue">
+    <entry file="file://$PROJECT_DIR$/dogshop/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/store/state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#423#459#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/List.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="25" column="6" lean-forward="true" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-          <folding>
-            <element signature="e#922#1103#0" expanded="false" />
-            <element signature="e#1130#1283#0" expanded="false" />
-            <element signature="e#1315#1393#0" expanded="false" />
-            <element signature="e#1432#1494#0" expanded="false" />
-            <element signature="e#1522#1697#0" expanded="false" />
-            <element signature="e#1730#1808#0" expanded="false" />
-            <element signature="e#1848#1910#0" expanded="false" />
-            <element signature="e#1946#2081#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.html" />
-    <entry file="file://$PROJECT_DIR$/dogshop/src/router/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="87" column="13" lean-forward="true" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
-          <folding>
-            <element signature="e#1408#1442#0" expanded="false" />
-            <element signature="e#1810#1870#0" expanded="false" />
-            <element signature="e#1876#1936#0" expanded="false" />
-            <element signature="e#1942#1996#0" expanded="false" />
-            <element signature="e#2002#2060#0" expanded="false" />
-            <element signature="e#2066#2138#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Order/Order.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="142" column="21" lean-forward="false" selection-start-line="142" selection-start-column="21" selection-end-line="142" selection-end-column="21" />
-          <folding>
-            <element signature="n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#transition#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop_server/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="6" column="11" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop_server/API.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/components/AlertTip/AlertTip.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/api/ajax.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop_server/db/models.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop_server/util/sms_util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-828">
-          <caret line="27" column="16" lean-forward="false" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gshop_server/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="198" column="16" lean-forward="true" selection-start-line="198" selection-start-column="16" selection-end-line="198" selection-end-column="16" />
-          <folding>
-            <element signature="e#2106#2696#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/api/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#1#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dogshop/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="16" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="163">
+          <caret line="44" column="8" lean-forward="false" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding>
             <element signature="e#2#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Profile/Profile.vue">
+    <entry file="file://$PROJECT_DIR$/dogshop/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2875">
-          <caret line="208" column="36" lean-forward="true" selection-start-line="208" selection-start-column="36" selection-end-line="208" selection-end-column="36" />
+        <state relative-caret-position="1086">
+          <caret line="93" column="19" lean-forward="false" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="19" />
           <folding>
-            <element signature="n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#header#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#span#1;n#li#1;n#ul#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#4387#4448#0" expanded="true" />
-            <element signature="e#5529#5612#0" expanded="false" />
+            <element signature="e#13#34#0" expanded="true" />
+            <element signature="e#1846#2247#0" expanded="false" />
+            <marker date="1524059736033" expanded="false" signature="2048:2102" ph="{&quot;path&quot;: '/msite/toy'...}" />
+            <marker date="1524059736033" expanded="false" signature="2108:2166" ph="{&quot;path&quot;: '/msite/goout'...}" />
+            <marker date="1524059736033" expanded="false" signature="2172:2244" ph="{&quot;path&quot;: '/msite/clothingcity'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/List.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1127">
+          <caret line="95" column="36" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="36" />
+          <folding>
+            <element signature="e#685#714#0" expanded="false" />
+            <element signature="e#1271#1452#0" expanded="false" />
+            <element signature="e#1479#1632#0" expanded="false" />
+            <element signature="e#1664#1742#0" expanded="false" />
+            <element signature="e#1871#2046#0" expanded="false" />
+            <element signature="e#2079#2157#0" expanded="false" />
+            <element signature="e#2197#2259#0" expanded="false" />
+            <element signature="e#2295#2430#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dogshop/src/pages/Msite/Msite.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="808" column="15" lean-forward="true" selection-start-line="808" selection-start-column="15" selection-end-line="808" selection-end-column="15" />
+        <state relative-caret-position="242">
+          <caret line="320" column="25" lean-forward="true" selection-start-line="320" selection-start-column="12" selection-end-line="320" selection-end-column="25" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#6;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#8;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#11;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#11244#11272#0" expanded="true" />
+            <element signature="e#11887#12085#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dogshop/src/pages/List/Brands.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="73" column="39" lean-forward="false" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#1371#1407#0" expanded="true" />
+            <marker date="1524111463169" expanded="true" signature="3522:4433" ph="{...}" />
           </folding>
         </state>
       </provider>

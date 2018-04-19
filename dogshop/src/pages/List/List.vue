@@ -12,14 +12,33 @@
 
       </div>
     </div>
+    <div class="loading" v-if="loading">
+      <img src="../Msite/images/loading.gif">
+      <div>数据加载中</div>
+    </div>
     <router-view></router-view>
+
   </div>
 </template>
 
 <script>
+  import {mapState} from 'vuex'
   import Items from './Items.vue';
   import Brand from './Brand.vue'
   export default {
+    data(){
+      return{
+        loading:true
+      }
+    },
+    computed:{
+      ...mapState(['categorys'])
+    },
+    watch:{
+      categorys(value){
+        this.loading=false
+      }
+    },
     components: {
       Items,
       Brand
@@ -111,7 +130,32 @@
     color: #666
   }
 
+  /*loading*/
+  .loading{
+    border-radius: 10px;
+    background-color:#555555;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+    text-align: center;
+    z-index: 100;
 
+  }
+  .loading img{
+    position: relative;
+    top:25px;
+    width: 40px;
+    height:40px;
+  }
+  .loading div{
+    position: relative;
+    top:30px;
+    color:white;
+  }
 
 
 

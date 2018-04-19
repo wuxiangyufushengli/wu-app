@@ -40,7 +40,16 @@ export default {
       let brand=result.data;
       commit(RECEIVE_BRAND,{brand})
     }
-  }
+  },
+  //获取所有的品牌
+  async GetbrandAll({commit},callback){
+    let result=await reqAllbrands();
+    if(result.code===0){
+      let allbrands=result.data;
+      commit(RECEIVE_ALLBRANDS,{allbrands});
+      callback&&callback()
+    }
+  },
 
 
 }

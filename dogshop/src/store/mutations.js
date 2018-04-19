@@ -17,8 +17,11 @@ export default {
   //获取tab2品牌分类列表
   [RECEIVE_BRAND](state,{brand}){
     state.brand=brand;
+  },
+  //获取所有品牌列表
+  [RECEIVE_ALLBRANDS](state,{allbrands}){
+    state.allbrands=allbrands;
   }
-
 
 
 }

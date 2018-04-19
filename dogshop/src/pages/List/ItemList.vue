@@ -4,6 +4,7 @@
       <CategoryList v-if="category.type===0" :category="category"></CategoryList>
       <HotBrand v-else :category="category"></HotBrand>
     </div>
+
   </div>
 </template>
 <script>
@@ -11,7 +12,11 @@
      import CategoryList from '../../components/CategoryList/CategoryList.vue'
      import {mapState} from 'vuex'
     export default {
-
+      data(){
+        return{
+          loading:true
+        }
+      },
       props:{
        index:Number
       },
@@ -155,4 +160,32 @@
   .clearfix{
     width: 100%;
   }
+  /*loading*/
+  .loading{
+    border-radius: 10px;
+    background-color:#555555;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+    text-align: center;
+    z-index: 100;
+
+  }
+  .loading img{
+    position: relative;
+    top:25px;
+    width: 40px;
+    height:40px;
+  }
+  .loading div{
+    position: relative;
+    top:30px;
+    color:white;
+  }
+
+
 </style>

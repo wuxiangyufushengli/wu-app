@@ -8,6 +8,11 @@ import router from './router'
 import './filters'
 import './mock/mockServer'
 import store from './store/index'
+import VueLazyLoad from 'vue-lazyload'
+import loading from './common/imgs/loading.gif'
+Vue.use(VueLazyLoad,{
+  loading
+});
 
 
 if ('addEventListener' in document) {

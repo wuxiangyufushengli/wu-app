@@ -3,7 +3,7 @@
       <div class="custom_tite pt10">
         <div class="titmoudle ftc rela clum-tit pb5">
           <div class="leftimg titclass" v-if="homepage.audio">
-            <img :src="homepage.audio[index].Timage"></div>
+            <img v-lazy="homepage.audio[index].Timage"></div>
           <div>
             <div>
               <div class="more titclass">
@@ -19,7 +19,7 @@
           <ul class="cmVideoList cmVideoListIndex" >
             <li><a href="https://wap.epet.com/article/video/View.html?vid=31&amp;fw=0">
               <div class="relative imgBox overflow default_bg" style="height: 210.5px;">
-                <img :src="homepage.audio[index].value[0].image"
+                <img v-lazy="homepage.audio[index].value[0].image"
                 lazy="loaded">
                 <span class="cmallPlayIco iconfont icon-bofang"></span>
               </div>

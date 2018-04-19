@@ -10,7 +10,7 @@
           <a href="https://wap.epet.com/brand/bd186.html?fw=0" class="db">
 
             <div class="container_brand">
-              <img :src="list.logo" lazy="loaded">
+              <img v-lazy="list.logo" lazy="loaded">
             </div>
             <p class="ftc ft12  mt5">{{list.name}}</p>
           </a>

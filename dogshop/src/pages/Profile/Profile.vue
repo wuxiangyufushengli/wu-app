@@ -428,5 +428,31 @@ login
     position: relative;
     bottom: 9px;
   }
+  /*loading*/
+  .loading{
+    border-radius: 10px;
+    background-color:#555555;
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+    text-align: center;
+    z-index: 100;
+
+  }
+  .loading img{
+    position: relative;
+    top:25px;
+    width: 40px;
+    height:40px;
+  }
+  .loading div{
+    position: relative;
+    top:30px;
+    color:white;
+  }
 
 </style>

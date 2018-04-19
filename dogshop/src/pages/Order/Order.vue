@@ -135,8 +135,8 @@
 
   .icon-tupianliebiao {
     font-size: 25px;
-    top: -14px;
-    position: relative;
+    float: right;
+
   }
 
   .footer1_guide {
