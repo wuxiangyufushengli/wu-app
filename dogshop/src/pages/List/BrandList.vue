@@ -38,6 +38,7 @@
         this.$store.dispatch('Getbrand')
       },
       watch:{
+        //监视状态变化
         brand(value){
           this.loading=false
         }

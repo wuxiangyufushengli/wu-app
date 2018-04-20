@@ -13,7 +13,7 @@
               <a href="javascript:;">
                 <div class="brand-wrapper">
                   <div class="brand-img">
-                    <img class="iamge" :src="brand.logo">
+                    <img class="iamge" v-lazy="brand.logo">
                   </div>
                   <div class="brand-name">
                     <p class="ft14">{{brand.name}}</p>
@@ -43,15 +43,14 @@
     export default {
       data(){
         return{
-          currentIndex:0,
           tops:[],//所有品牌的top
-          scrollY:0,//当前Y轴滚动的坐标
+          scrollY:0,//当前Y轴滚动的值
           loading:true
         }
       },
      computed:{
        ...mapState(['allbrands']),
-       //左边滑动的index
+       //左边正在滑动的index
        LeftCindex(){
          const {tops,scrollY}=this;
          return tops.findIndex((top,index)=>{
@@ -77,11 +76,12 @@
          click:true,
          probeType: 3,
        });
+
        this.Scroll.on('scroll', (pos) => {
-         this.scrollY = Math.abs(pos.y)+200//实时监控手指滑动距离，就为scrollY的值
+         this.scrollY = Math.abs(pos.y)//实时监控手指滑动距离，就为scrollY的值
        });
        this.Scroll.on('scrollEnd', (pos) => {
-         this.scrollY = Math.abs(pos.y)+200
+         this.scrollY = Math.abs(pos.y)
        })
 
      },

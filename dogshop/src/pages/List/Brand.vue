@@ -11,11 +11,6 @@
     import BrandList from './BrandList.vue'
     import {mapState} from 'vuex'
     export default {
-      data(){
-        return{
-          loading:true
-        }
-      },
       components:{
         BrandList
       }

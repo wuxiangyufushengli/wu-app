@@ -9,11 +9,12 @@
         <div class="search">
           <i class="iconfont icon-sousuosearch82"></i>
         </div>
-
       </div>
-    </div>
-    <router-view></router-view>
 
+    </div>
+    <keep-alive>
+      <router-view></router-view>
+    </keep-alive>
   </div>
 </template>
 
@@ -27,10 +28,6 @@
         loading:true
       }
     },
-    computed:{
-      ...mapState(['categorys'])
-    },
-
     components: {
       Items,
       Brand
@@ -139,7 +136,7 @@
   }
   .loading img{
     position: relative;
-    top:25px;
+    top:55px;
     width: 40px;
     height:40px;
   }

@@ -246,7 +246,7 @@ login
   }
   .login_bg {
     height: 180px;
-    background: url(//img1.epetbar.com/2018-04/13/13/ef42dfb164982f302e78ca327b9d306c.png) no-repeat;
+    background: url("https://www.itsolotime.com/img/login_bg.png") no-repeat;
     background-size: 100% 100%;
   }
 

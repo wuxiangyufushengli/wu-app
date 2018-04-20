@@ -4,19 +4,21 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Msite from '../pages/Msite/Msite.vue'
-import List from '../pages/List/List.vue'
-import Order from '../pages/Order/Order.vue'
-import Profile from '../pages/Profile/Profile.vue'
-import Login from '../pages/Login/Login.vue'
+//import Msite from '../pages/Msite/Msite.vue'
+//import List from '../pages/List/List.vue'
+//import Order from '../pages/Order/Order.vue'
+//import Profile from '../pages/Profile/Profile.vue'
+
+/*当打包构建应用时，Javascript 包会变得非常大，影响页面加载。
+如果我们能把不同路由对应的组件分割成不同的代码块，
+然后当路由被访问的时候才加载对应组件，这样就更加高效了。*/
+const Msite=()=>import('../pages/Msite/Msite.vue');
+const List=()=>import('../pages/List/List.vue');
+const Order=()=>import('../pages/Order/Order.vue');
+const Profile=()=>import('../pages/Profile/Profile.vue')
+
 
 import Homepage from '../pages/Msite/Homepage.vue';
-import Dogfood from '../pages/Msite/Dogfood.vue';
-import Snacks from '../pages/Msite/Snacks.vue';
-import Health from '../pages/Msite/Health.vue';
-import Toy from '../pages/Msite/Toy.vue';
-import Goout from '../pages/Msite/Goout.vue';
-import Clothingcity from '../pages/Msite/Clothingcity.vue';
 
 import Items from '../pages/List/Items.vue';
 import Brand from '../pages/List/Brand.vue';
@@ -77,10 +79,6 @@ export default new VueRouter({
     {
       path: '/profile',
       component: Profile,
-    },
-    {
-      path: '/login',
-      component: Login
     },
 
     {
